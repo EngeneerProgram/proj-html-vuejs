@@ -1,6 +1,6 @@
 <template>
 <div class="main">
-    <div class="container-fluid d-flex justify-content-center align-content-center">
+    <div class="container-fluid jumbotron d-flex justify-content-center align-content-center">
             <div class="container-header">
                 
                 <HeaderComponent/>
@@ -13,10 +13,12 @@
                     </div>
                 </div>
             </div>
+    </div>
+
+                <ClassFitnessComponent/>
 
             
 
-    </div>
 
 </div>
 </template>
@@ -26,19 +28,21 @@
 
 <script>
 import HeaderComponent from "./HeaderComponent.vue"
+import ClassFitnessComponent from "./ClassFitnessComponent.vue"
 export default {
    name: "MainComponent",
    components:{
-       HeaderComponent,
-   }
+    HeaderComponent,
+    ClassFitnessComponent
+}
 }
 </script>
 
 
 <style lang="scss" scoped>
 .container-fluid{
-    height: 100vh;
-    background-image: url("../assets/img/home-banner.jpg");
+    
+    
     
     .container-header{
         width: 1650px;
@@ -72,5 +76,10 @@ export default {
         }
     }
     
+}
+
+.jumbotron{
+    background-image: url("../assets/img/home-banner.jpg");
+    height: 100vh;
 }
 </style>
