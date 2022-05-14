@@ -1,5 +1,8 @@
 <template>
     <div class="container-fluid Login-container">
+        <div>
+           <font-awesome-icon class="ico_arrow" icon="fa-solid fa-caret-down" />
+        </div>
         <div class="container login-fix">
             <div class="thumb-gym">
                 <img src="../assets/img/home_img-compressor.jpg" alt="">
@@ -36,6 +39,16 @@ export default {
     justify-content: center;
     align-content: center;
     align-items: center;
+    position:relative;
+
+    .ico_arrow{
+       color: #6b6b6b;
+    font-size: 71px;
+    position: absolute;
+    top: -33px;
+    left: 49.5%;
+
+    }
         .login-system{
             position:relative;
 
