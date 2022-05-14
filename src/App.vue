@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    
    <MainComponent/>
     
     <footer></footer>
@@ -7,6 +8,7 @@
 </template>
 
 <script>
+
 //import HelloWorld from './components/HelloWorld.vue'
 
 import MainComponent from "./components/MainComponent.vue"
@@ -16,6 +18,7 @@ export default {
   name: 'App',
   components: {
     MainComponent,
+    
    
 }
 }

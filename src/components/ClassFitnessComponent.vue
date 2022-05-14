@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
 .container-gym{
     padding:100px;
-    background-color:#252a2d;
+    background-color:#6b6b6b;
 
     
 }

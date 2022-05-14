@@ -14,9 +14,9 @@
                 </div>
             </div>
     </div>
-
-                <ClassFitnessComponent/>
-
+    
+    <ClassFitnessComponent/>
+    <LoginComponent/>
             
 
 
@@ -29,11 +29,13 @@
 <script>
 import HeaderComponent from "./HeaderComponent.vue"
 import ClassFitnessComponent from "./ClassFitnessComponent.vue"
+import LoginComponent from "./LoginComponent.vue"
 export default {
    name: "MainComponent",
    components:{
     HeaderComponent,
-    ClassFitnessComponent
+    ClassFitnessComponent,
+    LoginComponent
 }
 }
 </script>
