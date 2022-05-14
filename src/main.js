@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
+import { faBicycle, faCaretDown, faCloud, faHeartPulse, faLinkSlash } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faCaretDown)
+library.add(faCaretDown, faLinkSlash, faBicycle, faCloud, faHeartPulse)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 const bootstrap = require('bootstrap');
 

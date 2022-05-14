@@ -45,7 +45,7 @@ export default {
        color: #6b6b6b;
     font-size: 71px;
     position: absolute;
-    top: -33px;
+    top: -36.5px;
     left: 49.5%;
 
     }

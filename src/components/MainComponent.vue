@@ -1,5 +1,5 @@
 <template>
-<div class="main">
+<main>
     <div class="container-fluid jumbotron d-flex justify-content-center align-content-center">
             <div class="container-header">
                 
@@ -17,10 +17,10 @@
     
     <ClassFitnessComponent/>
     <LoginComponent/>
-            
+    <BestServiceGymComponent/>
+</main>
 
 
-</div>
 </template>
 
 
@@ -30,12 +30,14 @@
 import HeaderComponent from "./HeaderComponent.vue"
 import ClassFitnessComponent from "./ClassFitnessComponent.vue"
 import LoginComponent from "./LoginComponent.vue"
+import BestServiceGymComponent from "./BestServiceGymComponent.vue"
 export default {
    name: "MainComponent",
    components:{
     HeaderComponent,
     ClassFitnessComponent,
-    LoginComponent
+    LoginComponent,
+    BestServiceGymComponent
 }
 }
 </script>
