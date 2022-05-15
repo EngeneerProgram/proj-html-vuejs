@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 .banner-background{
-    min-height: 70vh;
+    min-height: 65vh;
     background-image: url("../assets/img/home-testimonial-bg.jpg");
     background-position: center;
     display:Flex;
