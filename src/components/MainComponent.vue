@@ -19,6 +19,8 @@
     <LoginComponent/>
     <BestServiceGymComponent/>
     <ReviewsComponent/>
+    <PerformanceComponent/>
+    <BannerComponent/>
 </main>
 
 
@@ -33,6 +35,8 @@ import ClassFitnessComponent from "./ClassFitnessComponent.vue"
 import LoginComponent from "./LoginComponent.vue"
 import BestServiceGymComponent from "./BestServiceGymComponent.vue"
 import ReviewsComponent from "./ReviewsComponent.vue"
+import PerformanceComponent from "./PerformanceComponent.vue"
+import BannerComponent from "./BannerComponent.vue"
 export default {
    name: "MainComponent",
    components:{
@@ -40,7 +44,9 @@ export default {
     ClassFitnessComponent,
     LoginComponent,
     BestServiceGymComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    PerformanceComponent,
+    BannerComponent
 }
 }
 </script>
