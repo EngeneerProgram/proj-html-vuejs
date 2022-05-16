@@ -1,10 +1,13 @@
 <template>
    <div class="container-list">
        <div class="sinistra">
+           
            <p>{{items.text1}}</p>
        </div>
        <div class="centro">
-           <p>{{items.text2}}</p>
+           <p>{{items.text2 }}</p>
+           
+           
        </div>
        <div class="destra">
            {{items.text3}}

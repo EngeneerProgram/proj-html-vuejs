@@ -1,6 +1,7 @@
 <template>
   <div class="menu-footer">
      <ul class="menu-1">
+       <h5>COME FIND US</h5>
     <ElementFooterComponent
       :items="items"
       v-for="items in list_find"
@@ -10,14 +11,18 @@
 
   
   <ul class="menu2">
+    <h5>RECENT POST</h5>
       <ElementFooterComponent
       :items="items"
       v-for="items in second_list"
       :key="items.id"
+      
     />
+    <hr>
   </ul>
 
   <ul class="menu3">
+    <h5>OPENING TIME</h5>
         <ElementFooterComponent
       :items="items"
       v-for="items in last_list"
@@ -61,11 +66,11 @@ export default {
       second_list: [
           {
           id: 5,
-          text2: "Train with free weights or your body wight?",
+          text2: "> Train with free weights or your body wight?",
         },
         {
           id: 6,
-          text2: "Nutritional advice that will keep you training",
+          text2: "> Nutritional advice that will keep you training",
         },
         
       ],
@@ -103,5 +108,9 @@ ul{
 .menu3{
     display:Flex;
     flex-direction: column;
+}
+
+.menu2{
+  width: 280px
 }
 </style>

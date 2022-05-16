@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid footer-container">
-       <div class="container">
+       <div class="container foot-cont">
             <FooterItemsComponent/>
        </div>
     </div>
@@ -21,5 +21,16 @@ export default {
 .footer-container{
     height: 40vh;
     background-color:#6b6b6b;
+
+    .foot-cont{
+        height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
+    }
+
 </style>
