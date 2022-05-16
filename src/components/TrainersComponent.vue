@@ -99,6 +99,10 @@ export default {
 .col{
     display:Flex;
     flex-direction: column;
+    width: 370px;
+        height: 550px;
+        
+        margin:30px;
 }
 
 .thumb{
@@ -154,12 +158,7 @@ export default {
         
     }
 
-    .col{
-        width: 370px;
-        height: 550px;
-        
-        margin:30px;
-    }
+    
     
 }
 </style>
