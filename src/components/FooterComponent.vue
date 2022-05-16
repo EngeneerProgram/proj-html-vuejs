@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer-container{
-    height: 60vh;
+    height: 40vh;
     background-color:#6b6b6b;
 }
 </style>
