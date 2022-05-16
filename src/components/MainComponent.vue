@@ -23,6 +23,7 @@
     <BannerComponent/>
     <TrainersComponent/>
     <NewsGymComponent/>
+    <BrandComponent/>
 </main>
 
 
@@ -41,6 +42,7 @@ import PerformanceComponent from "./PerformanceComponent.vue"
 import BannerComponent from "./BannerComponent.vue"
 import TrainersComponent from "./TrainersComponent.vue"
 import NewsGymComponent from "./NewsGymComponent.vue"
+import BrandComponent from "./BrandComponent.vue"
 export default {
    name: "MainComponent",
    components:{
@@ -53,6 +55,7 @@ export default {
     BannerComponent,
     TrainersComponent,
     NewsGymComponent,
+    BrandComponent
 }
 }
 </script>
