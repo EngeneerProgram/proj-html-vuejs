@@ -47,6 +47,7 @@ export default {
         padding:5px;
         background-color:#d5625f;
         border-radius: 10%;
+        cursor:pointer;
     }
     
 }

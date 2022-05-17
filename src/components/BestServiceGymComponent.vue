@@ -108,8 +108,8 @@ export default {
 
 .font-siz {
   padding: 30px;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   object-fit: 1/1;
   border-radius: 100%;
   //font-size: 80px;

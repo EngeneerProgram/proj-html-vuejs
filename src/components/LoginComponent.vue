@@ -11,9 +11,9 @@
                 <h3 >Sign Up  For A Free Training Session!</h3>
                 <form action="get">
                     <label class="margin" for="Name">Nome *</label>
-                    <input  type="text">
+                    <input  type="text" v-model="name">
                      <label class="email-inp" for="email">Email</label>
-                    <input type="Email">
+                    <input type="Email" v-model="email">
                     <button class="margin-y text-uppercase">Start Now!</button>
 
                 </form>
@@ -27,6 +27,13 @@
 <script>
 export default {
     name: "LoginComponent",
+    data(){
+        
+        return{
+        name :"",
+        email: "",
+        }
+    }
 }
 </script>
 
