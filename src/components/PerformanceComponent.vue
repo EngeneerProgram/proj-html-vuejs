@@ -64,6 +64,10 @@ export default {
         background-color:red;
     }
 
+    .square:hover{
+        border:20px solid #252a2d
+    }
+
     .bg-1{
         background-image: url("../assets/img/home-image1.jpg");
         background-position: center;

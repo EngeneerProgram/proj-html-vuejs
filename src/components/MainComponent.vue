@@ -7,7 +7,7 @@
                
                  <div class="container jumbo-intro">
                     <h1 class="jumbo_motivation">No pain no gain</h1>
-                    <p class="sub_intro">Motivation is what gets you starterd. Habit is what keeps you hoing</p>
+                    <p class="sub_intro">Motivation is what gets you starterd. Habit is what keeps you going</p>
                     <div class="button_intro pt-5">
                         <a href="#" class="join text-uppercase">Join Us Today</a>
                     </div>
