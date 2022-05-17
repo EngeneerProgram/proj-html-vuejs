@@ -2,17 +2,18 @@
    <div class="container-list">
        <div class="sinistra">
            
-           <p>{{items.text1}}</p>
+           <p class="grey">{{items.text1}}</p>
        </div>
        <div class="centro">
-           <p>{{items.text2 }}</p>
+           <p class="grey">{{items.text2 }}</p>
            
            
        </div>
        <div class="destra">
-           {{items.text3}}
-           {{items.text31}}
+           <h6 class="grey">{{items.text3}}</h6>
+           <h6 class="grey-it">{{items.text31}}</h6>
        </div>
+
    </div>
 
    
@@ -31,7 +32,11 @@ export default {
 </script>
 
 <style lang="scss">
-.container-list{
-    
+.grey{
+    color:#aeafae;
+}
+
+.grey-it{
+    color:#6b6b6b;
 }
 </style>

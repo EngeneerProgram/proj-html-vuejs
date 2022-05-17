@@ -1,7 +1,7 @@
 <template>
   <div class="menu-footer">
      <ul class="menu-1">
-       <h5>COME FIND US</h5>
+       <h5 class="grey-it">COME FIND US</h5>
     <ElementFooterComponent
       :items="items"
       v-for="items in list_find"
@@ -11,18 +11,19 @@
 
   
   <ul class="menu2">
-    <h5>RECENT POST</h5>
+    <h5 class="grey-it">RECENT POST</h5>
       <ElementFooterComponent
       :items="items"
       v-for="items in second_list"
       :key="items.id"
       
     />
-    <hr>
+    <div id="color-border" class="border-bottom"></div>
+    <div class="border-bottom2"></div>
   </ul>
 
   <ul class="menu3">
-    <h5>OPENING TIME</h5>
+    <h5 class="grey-it">OPENING TIME</h5>
         <ElementFooterComponent
       :items="items"
       v-for="items in last_list"
@@ -30,6 +31,10 @@
     />
     
   </ul>
+
+  <div class="image">
+<img class="img-foot" src="../assets/img/gym_ad-compressor.jpg" alt="">
+  </div>
   </div>
 </template>
 
@@ -103,14 +108,47 @@ ul{
 
 .menu-footer{
     display:Flex;
+    margin:15px;
+    justify-content:space-between;
+    position:relative;
+    width: 73%;
+    
 }
 
-.menu3{
-    display:Flex;
-    flex-direction: column;
-}
+
 
 .menu2{
-  width: 280px
+  width: 280px;
+  position: relative;
 }
+
+.img-foot{
+  position: absolute;
+    top: 0px;
+    right: -323px;
+}
+
+.grey-it{
+    color:#6b6b6b;
+}
+
+
+.border-bottom{
+  width: 95%;
+  height: 1px;
+  
+  position:absolute;
+  top:106px;
+}
+.border-bottom{
+  background-color:#6b6b6b;
+}
+
+
+.border-bottom2{
+  width: 106%;
+  height: 1px;
+  background-color:#6b6b6b
+}
+
 </style>
