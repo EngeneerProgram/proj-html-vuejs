@@ -73,6 +73,8 @@ export default {
         background-position: center;
     }
 
+   
+
     .bg-2{
         background-image: url("../assets/img/home-image2.jpg");
         background-position: center;

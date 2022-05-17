@@ -102,6 +102,10 @@ export default {
         padding:15px 20px;
         color:#aeafae;
 }
+
+.read:hover{
+  color:#aeafae;
+}
 .center-card {
   display: flex;
   flex-direction: column;

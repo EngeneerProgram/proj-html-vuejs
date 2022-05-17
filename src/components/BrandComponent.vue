@@ -52,4 +52,8 @@ p{
         letter-spacing: 2px;
 }
 
+a:hover{
+    color:white;
+}
+
 </style>

@@ -18,7 +18,7 @@
       :key="items.id"
       
     />
-    <div id="color-border" class="border-bottom"></div>
+    <div id="color-border" class="border-bottom0"></div>
     <div class="border-bottom2"></div>
   </ul>
 
@@ -133,16 +133,14 @@ ul{
 }
 
 
-.border-bottom{
+.border-bottom0{
   width: 95%;
   height: 1px;
-  
+  background-color:#6b6b6b;
   position:absolute;
   top:106px;
 }
-.border-bottom{
-  background-color:#6b6b6b;
-}
+
 
 
 .border-bottom2{
