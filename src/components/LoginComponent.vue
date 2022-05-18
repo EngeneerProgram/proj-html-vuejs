@@ -88,6 +88,7 @@ export default {
                 padding:6px;
                 border:1px solid white;
                 background-color:#252a2d;;
+                color:white;
             }
             
             .email-inp{
