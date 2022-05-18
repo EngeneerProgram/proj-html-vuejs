@@ -54,6 +54,12 @@ export default {
 ul{
     display:Flex;
     align-content: center;
+    align-items: center;
 
+}
+
+nav{
+    display:flex;
+    align-content: center;
 }
 </style>

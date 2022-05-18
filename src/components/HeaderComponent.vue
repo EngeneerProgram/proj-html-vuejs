@@ -2,16 +2,7 @@
   <header>
     <LogoComponent />
     <NavComponent/>
-    <!-- <nav>
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Abaut Us</a></li>
-        <li><a href="#">Facilities</a></li>
-        <li><a href="#">Membership</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-    </nav> -->
+   
   </header>
 </template>
 

@@ -8,7 +8,7 @@
       
 
       <div class="container-card container">
-        <h2>PERFORMANCE NEWS</h2>
+        <h2 class=" white">PERFORMANCE NEWS</h2>
 
       <span class="img-x text-center"
         ><img
@@ -123,37 +123,37 @@ export default {
 }
 
 .card1{
-   width: 350px;
+   width: 380px;
   height: 520px;
 }
 
 .card2{
-   width: 350px;
+   width: 380px;
   height: 650px;
 }
 .card3{
-  width: 350px;
+  width: 380px;
   height: 520px;
 }
 
 .card4{
-   width: 350px;
+   width: 380px;
   height: 520px;
   position: absolute;
     top: 670px;
-    left: 75px
+    left: 30px
 }
 
 .card5{
-   width: 350px;
+   width: 380px;
   height: 520px;
 }
 
 .card6{
-   width: 350px;
+   width: 380px;
   height: 520px;
   position: absolute;
-    right: 75px;
+    right: 30px;
     top: 670px
 }
 
